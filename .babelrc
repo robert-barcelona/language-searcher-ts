@@ -1,0 +1,9 @@
+{
+  "presets": ["@babel/preset-env", "react",[
+    "@emotion/babel-preset-css-prop",
+    {
+      "sourceMap": false
+    }
+  ]],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
